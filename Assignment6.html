@@ -14,10 +14,10 @@
   <link href="css/3-col-portfolio.css" rel="stylesheet">
 
   <style>
+    /* FIX: make image responsive and NOT cropped */
     .card-img-top {
-      width: 100% !important;
-      height: 400px !important; /* ← change this number to make it bigger or smaller */
-      object-fit: cover;
+      width: 100%;
+      height: auto;
     }
   </style>
 </head>
@@ -43,10 +43,10 @@
     <!-- Row -->
     <div class="row">
 
-      <!-- BIG IMAGE CARD -->
-      <div class="col-lg-6 col-sm-12">
+      <!-- FULL WIDTH IMAGE CARD -->
+      <div class="col-12">
         <div class="card">
-          <img class="card-img-top" src="Images/FlowMap.png" alt="">
+          <img class="card-img-top" src="Images/FlowMap.png" alt="Domestic Migration in Mexico Map">
           <div class="card-body">
             <h4 class="card-title">Domestic Migration in Mexico</h4>
             <p class="card-text">Add your description here.</p>
